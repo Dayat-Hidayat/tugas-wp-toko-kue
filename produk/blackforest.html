@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BSI Bakery</title>
+
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Start Header Nav -->
+      <nav>
+        <div class="logo">
+          <a href="../index.html">BSI Bakery</a>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="index.html">Produk</a></li>
+            <li><a href="../about.html">Tentang Kami</a></li>
+          </ul>
+        </div>
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+      <!--End Header Nav  -->
+
+      <!-- Start Content -->
+      <div class="content">
+        <div class="menu-populer">
+          <img src="../images/kue-blackforest.jpg" alt="Kue BlackForest" />
+          <p>Kue BlackForest</p>
+          <p>Rp. 130.000,-</p>
+          <br />
+          <p>Jumlah Beli</p>
+          <form action="output-blackforest.php" method="post">
+            <input type="text" name="jumlah" placeholder="Jumlah Beli" />
+            <input class="tombol" type="submit" value="Beli" />
+          </form>
+        </div>
+      </div>
+      <!-- End Content -->
+    </div>
+
+    <!-- Start Footer -->
+    <div class="footer">
+      <p>Copyright &copy; 2022 Toko BSI Bakery</p>
+    </div>
+    <!-- End Footer -->
+
+    <script src="../script.js"></script>
+  </body>
+</html>
